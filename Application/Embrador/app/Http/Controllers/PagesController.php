@@ -24,4 +24,15 @@ class PagesController extends Controller
     }
 
 
+    public function getKyocera(){
+        return view('pages/kyocera');
+    }
+    
+
+    public function getRicoh(){
+        return view('pages/ricoh');
+    }
+    
+    
+
 }

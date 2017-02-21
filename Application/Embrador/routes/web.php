@@ -24,5 +24,7 @@ Route::post('register','Auth\RegisterController@register');
 Route::get('/', 'PagesController@getIndex');
 Route::get('about', 'PagesController@getAbout');
 Route::get('copiers', 'PagesController@getCopiers');
+Route::get('kyocera', 'PagesController@getKyocera');
+Route::get('ricoh', 'PagesController@getRicoh');
 Route::get('parts', 'PagesController@getParts');
 
