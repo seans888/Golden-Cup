@@ -50,7 +50,7 @@
                 <h3>Product Name</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -63,7 +63,7 @@
                 <h3>Product Name</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -76,7 +76,7 @@
                 <h3>Product Name</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -89,7 +89,7 @@
                 <h3>Product Name</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
