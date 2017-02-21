@@ -32,7 +32,11 @@ class PagesController extends Controller
     public function getRicoh(){
         return view('pages/ricoh');
     }
-    
+
+
+    public function getCart(){
+        return view('pages/cart');
+    }
     
 
 }

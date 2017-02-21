@@ -17,7 +17,12 @@
                 <h3>Kyocera-Mita-2030</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -30,7 +35,12 @@
                 <h3>Kyocera-Mita-2530-3530</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -44,7 +54,12 @@
                 <h3>Kyocera-Mita-4035-5035</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>

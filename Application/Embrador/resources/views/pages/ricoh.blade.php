@@ -15,7 +15,12 @@
                 <h3>Ricoh-Aficio-1015</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -28,7 +33,12 @@
                 <h3>Ricoh-Aficio-2015 Platen</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -42,7 +52,12 @@
                <h3>Ricoh-Aficio-1018</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -55,7 +70,12 @@
                 <h3>Ricoh-Aficio-1035</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -68,7 +88,12 @@
                 <h3>Ricoh-Aficio-1113</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -81,7 +106,12 @@
                 <h3>Ricoh-Aficio-1500</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+				@if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -96,7 +126,12 @@
                 <h3>Ricoh-Aficio-1515</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -109,7 +144,12 @@
                 <h3>Ricoh-Aficio-2020</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -122,7 +162,12 @@
                 <h3>Ricoh-Aficio-2022</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -135,7 +180,12 @@
                 <h3>Ricoh-Aficio-2027</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -148,8 +198,12 @@
                 <h3>Ricoh-Aficio-2020</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
-                </p>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
             </div>
         </div>
     </div>
@@ -162,7 +216,12 @@
                 <h3>Ricoh-Aficio-2035</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -175,7 +234,12 @@
                 <h3>Ricoh-Aficio-3025</h3>>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -188,7 +252,12 @@
                 <h3>Ricoh-MP-161-26</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -201,7 +270,12 @@
                 <h3>Ricoh-MP-1600-202</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -214,8 +288,12 @@
                 <h3>Ricoh-MP-2000-256</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
-                </p>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
             </div>
         </div>
     </div>
@@ -228,7 +306,12 @@
                 <h3>Ricoh-MP-2500-ADF</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -241,7 +324,12 @@
                 <h3>Ricoh-MP-2500-Platen</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -254,7 +342,12 @@
                 <h3>Ricoh-MP-2510-204</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+				@if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -271,7 +364,12 @@
                 <h3>Ricoh-MP-2000-256</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -288,7 +386,12 @@
                 <h3>Ricoh-MP-1600-202</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -302,7 +405,12 @@
                 <h3>Ricoh-Aficio-1515 </h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -315,7 +423,12 @@
                 <h3>Ricoh-Aficio-2020</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>

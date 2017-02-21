@@ -28,6 +28,7 @@
 
             <br>
             {{ Form::submit('Login', array('class' => 'btn btn-primary btn-block')) }}
+            <a class="btn btn-success btn-block" href="/register"> Create an account</a> 
 
             {{ Form::close() }}
 

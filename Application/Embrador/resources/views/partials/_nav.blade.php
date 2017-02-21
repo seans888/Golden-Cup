@@ -35,7 +35,7 @@
                 <!--<li><a href="#">Link</a></li>-->
                 @if (Auth::check())
                 
-                    <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <li><a href="/cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
    Shopping Cart</a></li>
                     <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">

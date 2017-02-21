@@ -50,7 +50,12 @@
                 <h3>Product Name</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -63,8 +68,12 @@
                 <h3>Product Name</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
-                </p>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
             </div>
         </div>
     </div>
@@ -76,7 +85,12 @@
                 <h3>Product Name</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
@@ -89,7 +103,12 @@
                 <h3>Product Name</h3>
                 <p>Product Details</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Add to cart</a> <a href="#" class="btn btn-default">More Info</a>
+                    @if (Auth::check())
+                    <a href="/cart" class="btn btn-primary">Add to cart</a> 
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
+                @endif
+                    <a href="#" class="btn btn-default">More Info</a>
                 </p>
             </div>
         </div>
