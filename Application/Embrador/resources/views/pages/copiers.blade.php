@@ -1,6 +1,7 @@
 @extends('main')
 
 @section('title', '| Copier Machines')
+<link rel="stylesheet" href="/css/style.css">
 @section('content')
 <h1 class="text-center" style="font-weight: bold"> Copiers Machines </h1>
 <hr>

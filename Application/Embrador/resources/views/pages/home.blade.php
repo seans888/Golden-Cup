@@ -1,5 +1,6 @@
 @extends('main')
 @section('title', '| Home')
+<link rel="stylesheet" href="/css/style.css">
 
 @section('content')
 <!-- Jumbotron Header -->
@@ -10,10 +11,6 @@
 <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="/images/gc-logo.png" align="middle" width="100%" height="125%" alt="Logo">
-    </div>
-
-    <div class="item">
       <img src="/images/slider-1.jpg" align="middle" width="100%" alt="Slide1">
     </div>
 

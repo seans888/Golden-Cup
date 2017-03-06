@@ -1,6 +1,7 @@
 @extends('main')
 
 @section('title', '| Kyocera Mita')
+<link rel="stylesheet" href="/css/style.css">
 @section('content')
 <p><a href="/copiers" class="btn btn-primary"> Back</a></p>
 <h1 class="text-center" style="font-weight: bold"> Kyocera Mita </h1>

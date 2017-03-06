@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">GOLDEN CUP</a>
+            <a class="navbar-brand" href="/"><img src = "/images/gc-g2.png" height = 150% style="margin-top:-5px"></img></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

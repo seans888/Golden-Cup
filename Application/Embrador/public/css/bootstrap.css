@@ -11,6 +11,8 @@ html {
 }
 body {
   margin: 0;
+  background-image: url(asset('images/bg1.jpg'));
+  background-size:contain;
 }
 article,
 aside,
@@ -4272,11 +4274,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-width: 1px 0 0;
 }
 .navbar-brand {
-  float: left;
   height: 50px;
-  padding: 15px 15px;
+  padding-left:15px;
+  padding-right: 15px;
+  padding-top:-10px;
+  padding-bottom:15px;
   font-size: 18px;
-  line-height: 20px;
+  line-height: -10px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -4284,6 +4288,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand > img {
   display: block;
+  margin:0px;
+  padding-top:-10px;
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,

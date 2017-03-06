@@ -1,5 +1,6 @@
 @extends('main')
 @section('title', '| Shopping Cart')
+<link rel="stylesheet" href="/css/style.css">
 
 @section('content')
 

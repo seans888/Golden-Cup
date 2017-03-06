@@ -18,3 +18,7 @@ p{
 	margin-top:150px;
 }
 
+body{
+	background-image: url("/images/bg1.jpg");
+	background-size:contain;
+}

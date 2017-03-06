@@ -1,5 +1,6 @@
 @extends('main')
 @section('title', '| Ricoh')
+<link rel="stylesheet" href="/css/style.css">
 
 @section('content')
 
@@ -7,7 +8,7 @@
 <h1 class="text-center" style="font-weight: bold"> Ricoh </h1>
 <hr>
 
-
+<div class="row">
 <div class="col-md-3 col-sm-6 hero-feature">
         <div class="thumbnail">
             <img src="/images/ricoh01.png" alt="">
@@ -80,7 +81,9 @@
             </div>
         </div>
     </div>
+    </div>
 
+    <div class="row">
     <div class="col-md-3 col-sm-6 hero-feature">
         <div class="thumbnail">
             <img src="/images/ricoh05.png" alt="">
@@ -154,8 +157,10 @@
             </div>
         </div>
     </div>
+    </div>
 
-     <div class="col-md-3 col-sm-6 hero-feature">
+    <div class="row">
+    <div class="col-md-3 col-sm-6 hero-feature">
         <div class="thumbnail">
             <img src="/images/ricoh11.png" alt="">
             <div class="caption">
@@ -168,6 +173,7 @@
                     <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
                 @endif
                     <a href="#" class="btn btn-default">More Info</a>
+                    </p>
                 </p>
             </div>
         </div>
@@ -186,6 +192,7 @@
                     <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
                 @endif
                     <a href="#" class="btn btn-default">More Info</a>
+                    </p>
                 </p>
             </div>
         </div>
@@ -204,6 +211,8 @@
                     <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
                 @endif
                     <a href="#" class="btn btn-default">More Info</a>
+                    </p>
+                    </p>
             </div>
         </div>
     </div>
@@ -222,11 +231,14 @@
                     <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
                 @endif
                     <a href="#" class="btn btn-default">More Info</a>
+                    </p>
                 </p>
             </div>
         </div>
     </div>
+    </div>
 
+    <div class="row">
     <div class="col-md-3 col-sm-6 hero-feature">
         <div class="thumbnail">
             <img src="/images/ricoh17.png" alt="">
@@ -294,11 +306,13 @@
                     <a href="{{ route('login') }}" class="btn btn-primary">Add to cart</a> 
                 @endif
                     <a href="#" class="btn btn-default">More Info</a>
+                    </p>
             </div>
         </div>
     </div>
+    </div>
 
-
+    <div class="row">
     <div class="col-md-4 col-sm-6 hero-feature">
         <div class="thumbnail">
             <img src="/images/ricoh21.png" alt="">
@@ -352,11 +366,12 @@
             </div>
         </div>
     </div>
+    </div>
 
 
 
 
-
+<div class="row">
 <div class="col-md-3 col-sm-6 hero-feature">
         <div class="thumbnail">
             <img src="/images/ricoh15.png" alt="">
@@ -432,5 +447,6 @@
                 </p>
             </div>
         </div>
+    </div>
     </div>
 @endsection

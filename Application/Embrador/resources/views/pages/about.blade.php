@@ -23,25 +23,25 @@
 </div>
 
 	<div class="row section2">
-		<div class="col-md-3 thumbnail">
+		<div class="col-md-3 ">
 			<img src="/images/cora2.jpg" alt="coreen" width="90%" class="img-circle">
 			<h3><center>Corinne Magnaye<center></h3>
 			<h5><center><strong>System Analyst</strong><center></h5>
 		</div>
 
-		<div class="col-md-3 thumbnail">
+		<div class="col-md-3 ">
 			<img src="/images/ally2.jpg" alt="ally" width="90%" class="img-circle">
 			<h3><center>Mary Allyson Bandong<center></h3>
 			<h5><center><strong>System Analyst</strong><center></h5>
 		</div>
 
-		<div class="col-md-3 thumbnail">
+		<div class="col-md-3 ">
 			<img src="/images/me2.jpg" alt="amiel" width="90%" class="img-circle">
 			<h3><center>Amiel Kristian Cuasay<center></h3>
 			<h5><center><strong>Project Manager/Developer</strong><center></h5>
 		</div>
 
-		<div class="col-md-3 thumbnail">
+		<div class="col-md-3 ">
 			<img src="/images/you2.jpg" alt="choy" width="90%" class="img-circle">
 			<h3><center>Ronel Embrador<center></h3>
 			<h5><center><strong>System Analyst/Developer</strong><center></h5>
