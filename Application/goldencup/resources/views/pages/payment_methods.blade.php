@@ -4,10 +4,16 @@
 <link rel="stylesheet" href="/css/style.css">
 @section('content')
 
-    <div id="payment-container">
+    <div class="payment-container">
         <h1> Choose your payment method below: </h1>
-        <h2> Cash on Delivery and Bank Deposit</h2>
 
+            <hr />
+
+        <div class="round-button">
+            <a href="">
+                <img src="../images/bankdeposit.jpg" alt="Bank Deposit" />
+            </a>
+        </div>
     </div>
 
     @endsection

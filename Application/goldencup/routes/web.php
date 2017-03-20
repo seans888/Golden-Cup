@@ -27,6 +27,8 @@ Route::get('copiers', 'PagesController@getCopiers');
 Route::get('kyocera', 'PagesController@getKyocera');
 Route::get('ricoh', 'PagesController@getRicoh');
 Route::get('parts', 'PagesController@getParts');
+Route::get('payment_methods', 'PagesController@getPayment');
+Route::get('account_settings', 'PagesController@getAccountSettings');
 
 Route::get('cart','PagesController@getCart');
 

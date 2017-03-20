@@ -37,6 +37,13 @@ class PagesController extends Controller
     public function getCart(){
         return view('pages/cart');
     }
-    
+
+    public function getPayment(){
+        return view('pages/payment_methods');
+    }
+
+    public function getAccountSettings(){
+        return view('pages/account_settings');
+    }
 
 }
