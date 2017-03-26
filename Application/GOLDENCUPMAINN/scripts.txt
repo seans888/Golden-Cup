@@ -1,0 +1,16 @@
+
+
+INSERT INTO `products` (`name`, `description`,`price`, `image`, `category_id`) VALUES ('Kyocera 1', 'Sample description','89.46','kyo1.png','1');
+INSERT INTO `products` (`name`, `description`,`price`, `image`, `category_id`) VALUES ('Kyocera 2', 'Sample description','45.46','kyo2.png','1');
+INSERT INTO `products` (`name`, `description`,`price`, `image`, `category_id`) VALUES ('Kyocera 3', 'Sample description','22.46','kyo3.png','1');
+INSERT INTO `products` (`name`, `description`,`price`, `image`, `category_id`) VALUES ('Ricoh 01', 'Sample description','65.46','ricoh01.png','1');
+
+
+
+
+
+
+
+ <br>
+            {{ Form::label('remember', 'Remember Me') }}
+            {{ Form::checkbox('remember') }}
