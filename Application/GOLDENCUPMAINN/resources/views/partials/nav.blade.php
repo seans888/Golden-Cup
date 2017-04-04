@@ -48,7 +48,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-user-circle" aria-hidden="true"></i>    Hello, {{ Auth::user()->first_name . ' '  . Auth::user()->last_name}} <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="/account_settings">Account Settings</a></li>
+                            <!--<li><a href="/account_settings">Account Settings</a></li>-->
                             <!--<li role="separator" class="divider"></li>-->
                             <li><a href="{{ route('logout') }}">Logout</a></li>
                         </ul>

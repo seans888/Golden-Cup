@@ -9,7 +9,7 @@
             <div class="col-sm-3 col-md-3 col-lg-3 columns">
                 <div class="item-wrapper">
                     <div class="img-wrapper">
-                        <a href="{{route('cart.addItem',$copier->id)}}" class="button expanded add-to-cart">
+                        <a href="{{route('cart.addItem',$copier->id)}}" class="btn btn-primary">
                             Add to Cart
                         </a>
                         <a href="#">

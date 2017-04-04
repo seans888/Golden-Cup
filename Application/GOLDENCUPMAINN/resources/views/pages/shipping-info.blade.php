@@ -31,8 +31,10 @@
             {{ Form::text('phone', null, array('class' => 'form-control')) }}
         </div>
 
-        {{ Form::submit('Proceed to Payment', array('class' => 'button success')) }}
+        <div class="col-md-6 col-md-offset-3">
+        <a class="btn btn-success btn-block" href="/payment_method"> Proceed to payment </a>
         {!! Form::close() !!}
+        </div>
     </div>
 
 
