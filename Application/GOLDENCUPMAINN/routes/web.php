@@ -66,3 +66,9 @@ Route::get('test',function(){
    $items=$orders->orderItems;
 dd($items);
 });
+
+Route::prefix('admin')->group(function(){
+Route::get('/admin/login', 'Auth\AdminController@showLoginForm')->name('admin.login');
+Route::post('/admin/login', 'Auth\AdminController@login')->name('admin.login.submit');
+Route::get('/admin', 'AdminController@index')->name('admin.dashboard');
+});
